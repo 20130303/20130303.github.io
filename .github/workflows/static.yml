@@ -1,0 +1,34 @@
+<body onload="document.body.style.opacity='1'" style="opacity: 1;">
+    <div class="header">
+        <img src="logo.png" alt="GhostCodeNet Logo">
+        <h1>欢迎使用沉入代码的幽灵</h1>
+        <ul class="menu">
+            <li><a href="index.html">首页</a></li>
+            <li>
+                <a href="#about">关于</a>
+                <ul class="submenu">
+                    <li><a href="Developers.html" target="_blank">开发者</a></li>
+                    <li><a href="https://oj.tudoubiancheng.top/group/1213" target="_blank">OJ分团</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <h3>什么是沉入代码的幽灵?</h3>
+        <h4>沉入代码的幽灵是一个为灵异爱好者和编程爱好者或开发者们制作的集灵异、编程为一体的网站</h4>
+        <h3>声明：</h3>
+        <h4>因为制作者的团体是一些初学者可能制作的不太好，请原谅！</h4>
+        <button class="my-button" id="myButton">点击我登录</button>
+
+        <script>
+            const button = document.getElementById('myButton');
+            button.addEventListener('click', function () {
+                alert('登录界面正在制作中...可能需要在等一个月ing');
+            });
+        </script>
+
+    </div>
+
+
+
+</body>
